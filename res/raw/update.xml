@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<updatefile>
+
+    <appversion>
+	1.0.1    
+    </appversion>
+
+    <appurl>
+	http://117.135.133.66/gepr_view/api/gp_app/    
+    </appurl>
+
+    <appname>
+	gp_1.0.1.apk    
+    </appname>
+
+    <cityversion>
+	1.1    
+    </cityversion>
+
+    <dburl>
+	http://117.135.133.66/gepr_view/api/gp_url/city.php    
+    </dburl>
+
+    <taskversion>
+	1.0    
+    </taskversion>
+
+    <taskurl>
+	http://117.135.133.66/gepr_view/api/gp_url/task1.php    
+    </taskurl>
+    <!-- -以下是新增加部分 -->
+    <task2version>
+	1.0    
+    </task2version>
+
+    <task2>
+	http://117.135.133.66/gepr_view/api/gp_url/task2.php    
+    </task2>
+
+    <task4gurl>
+	http://117.135.133.66/gepr_view/api/gp_url/task4.php    
+    </task4gurl>
+
+    <task4gversion>
+	1.0    
+    </task4gversion>
+
+    <task3version>
+	1.0    
+    </task3version>
+
+    <task3url>
+	http://117.135.133.66/gepr_view/api/gp_url/task3.php    
+    </task3url>
+
+    <checkmd5>
+	http://117.135.133.66/gepr_view/api/gp_url/checkmd5.php    
+    </checkmd5>
+    <!-- -以上是新增加部分 -->
+    <userversion>
+	1.0    
+    </userversion>
+
+    <userurl>
+	http://117.135.133.66/gepr_view/api/gp_url/user.php    
+    </userurl>
+
+    <showcounturl>
+	http://117.135.133.66/gepr_view/api/gp_url/lasttime.php    
+    </showcounturl>
+
+    <timeurl>
+	htttp://117.135.133.66/cmca/mis/update/time.php    
+    </timeurl>
+
+    <uploadurl>
+	http://117.135.133.66/gepr_view/api/uploadxml.php    
+    </uploadurl>
+
+    <uploadfiles>
+	http://117.135.133.66/gepr_view/api/uploadfiles.php    
+    </uploadfiles>
+
+    <searchlist>
+	http://117.135.133.66/gepr_view/api/gp_url/searchlist.php     
+    </searchlist>
+
+    <serverlist>
+http://117.135.133.66/gepr_view/api/gp_url/serverlist.php
+    </serverlist>
+
+    <taskfreq>
+	60    
+    </taskfreq>
+
+    <uploadlimit>
+	10    
+    </uploadlimit>
+
+    <description>
+	有新版本，是否现在下载？    
+    </description>
+
+</updatefile>

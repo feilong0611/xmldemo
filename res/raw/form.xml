@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<task	id="1"   name="日常工作内容">	
+  <node title = "基础信息"  close = "true">	
+  
+  <recordToggle ln="rec1" title="自动录音：" />
+  
+  <radio	ln="r1"  title="基础信息"  text="走访情况："  choose="true" >
+    <ri  value ="1"	text="开始工作"  />
+    <ri	 value ="0"	   text="不成功"  vid = "v1" />    
+  </radio>  
+  
+  <visible  vid = "v1">
+    <radio	ln="r2"  title="不成功的原因"  text="" >
+    <ri	    value ="1" text="关门"  />
+    <ri		 value ="2" text="已转行或转让"  />
+    <ri		 value ="3" text="该地址没有该店"  />
+    <ri		 value ="4" text="找不到"  />
+    </radio>
+    <input  type="text"  ln="it1" title="其他不成功原因"  text="-_- " />
+  </visible>
+        
+  </node>
+  <node title = "走访内容" close = "true">  
+  <input  type="text"  ln="it2" title="走访内容"  text="具体工作内容:-_- " 
+choose="true" multiline="5"/>  
+  <pic  ln="p1"  title="单页照片"  text=""  />
+  <pic  ln="p2"  title="海报"  text=""  />
+  <pic  ln="p3"  title="横幅"  text=""  />
+  <pic  ln="p4"  title="X展架"  text=""  />
+  <pic  ln="p5"  title="堆头"  text=""  />
+  <pic  ln="p6"  title="地贴"  text=""  />
+  <pic  ln="p7"  title="吊旗"  text=""  />
+  <pic  ln="p9"  title="门头照片"  text=""  />
+  <pic  ln="p8"  title="其他"  text=""  />
+  </node>
+  
+</task>
